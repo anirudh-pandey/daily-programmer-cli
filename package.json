@@ -2,11 +2,11 @@
   "bin": {
     "dailyprogclt": "jdeploy-bundle/jdeploy.js"
   },
-  "author": "",
+  "author": "Anirudh Pandey",
   "description": "Fetches Coding Questions from the r/dailyprogrammer subreddit based on the question number and difficulty level entered.",
   "main": "index.js",
   "preferGlobal": "true",
-  "repository": "",
+  "repository": "https://github.com/SeverusTheBest/daily-programmer-cli",
   "version": "1.0.0",
   "jdeploy": {
     "jar": "out/artifacts/dailyprogclt_jar/dailyprogclt.jar"

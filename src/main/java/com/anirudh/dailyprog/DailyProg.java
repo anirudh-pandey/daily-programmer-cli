@@ -62,7 +62,7 @@ public class DailyProg implements Runnable {
             if(children != null && !children.isEmpty()) {
                 JSONObject childData = children.optJSONObject(0).optJSONObject("data");
                 if(isCorrectQuestion(childData.get("title").toString(), questionNumber, difficultyLevel.toString())) {
-                    System.out.print("-------- TITLE: " + childData.get("title") + " --------");
+                    System.out.println("-------- TITLE: " + childData.get("title") + " --------");
                     System.out.println(StringEscapeUtils.unescapeHtml4(StringEscapeUtils.unescapeHtml4(String.valueOf(childData.get("selftext")))));
                 } else {
                     System.out.println("Question: '" + questionNumber + "', with Difficulty: '" + difficultyLevel +
