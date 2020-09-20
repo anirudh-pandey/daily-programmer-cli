@@ -1,0 +1,25 @@
+{
+  "bin": {
+    "dailyprogclt": "jdeploy-bundle/jdeploy.js"
+  },
+  "author": "",
+  "description": "Fetches Coding Questions from the r/dailyprogrammer subreddit based on the question number and difficulty level entered.",
+  "main": "index.js",
+  "preferGlobal": "true",
+  "repository": "",
+  "version": "1.0.0",
+  "jdeploy": {
+    "jar": "out/artifacts/dailyprogclt_jar/dailyprogclt.jar"
+  },
+  "dependencies": {
+    "shelljs": "^0.7.5"
+  },
+  "license": "ISC",
+  "name": "dailyprog",
+  "files": [
+    "jdeploy-bundle"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
