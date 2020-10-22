@@ -1,25 +1,31 @@
 {
+  "name": "dailyprogcli",
   "bin": {
-    "dailyprogclt": "jdeploy-bundle/jdeploy.js"
+    "dailyprog": "app.js"
   },
   "author": "Anirudh Pandey",
-  "description": "Fetches Coding Questions from the r/dailyprogrammer subreddit based on the question number and difficulty level entered.",
+  "description": "Fetches Coding Questions from the r/dailyprogrammer subreddit based on the question and difficulty entered.",
   "main": "index.js",
-  "preferGlobal": "true",
-  "repository": "https://github.com/SeverusTheBest/daily-programmer-cli",
-  "version": "1.0.0",
-  "jdeploy": {
-    "jar": "out/artifacts/dailyprogclt_jar/dailyprogclt.jar"
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeverusTheBest/daily-programmer-cli.git"
   },
+  "version": "1.1.0",
   "dependencies": {
-    "shelljs": "^0.7.5"
+    "axios": "^0.20.0",
+    "chalk": "^4.1.0",
+    "cli-html": "^1.8.2",
+    "he": "^1.2.0",
+    "yargs": "^16.0.1"
   },
   "license": "ISC",
-  "name": "dailyprog",
-  "files": [
-    "jdeploy-bundle"
-  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/SeverusTheBest/daily-programmer-cli/issues"
+  },
+  "homepage": "https://github.com/SeverusTheBest/daily-programmer-cli#readme",
+  "devDependencies": {}
 }
