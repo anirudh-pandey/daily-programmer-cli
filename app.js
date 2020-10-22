@@ -3,7 +3,7 @@ const yargs = require('yargs');
 const { isNaturalNumber, printMsg } = require('./utils.js'),
       { getQuestion } = require('./api');
 
-yargs.version('1.1.0');
+yargs.version('1.2.0');
 
 yargs.options({
   q: {
