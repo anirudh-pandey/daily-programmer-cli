@@ -23,6 +23,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "reddit",
+    "cli",
+    "dailyprogrammer"
+  ]
   "bugs": {
     "url": "https://github.com/SeverusTheBest/daily-programmer-cli/issues"
   },

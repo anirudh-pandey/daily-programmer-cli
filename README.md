@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <img src="images/dailyprog.png" alt="DailyProg" width="200">
+  <a href="https://www.npmjs.com/package/dailyprog"><img src="images/dailyprog.png" alt="DailyProg" width="200"></a>
   <br>
   DailyProg
   <br>
@@ -25,7 +25,7 @@
   <a href="#license">License</a>
 </p>
 
-![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
+![screenshot](https://imgur.com/a/9SYsjNW)
 
 ## Build With
 
