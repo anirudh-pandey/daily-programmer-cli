@@ -26,7 +26,7 @@
 </p>
 
 <!-- ![screenshot](https://imgur.com/a/9SYsjNW) -->
-![](https://imgur.com/a/9SYsjNW)
+![](https://imgur.com/a/9SYsjNW.gif)
 
 ## Build With
 
