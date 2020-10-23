@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://www.npmjs.com/package/dailyprog"><img src="images/markdownify.png" alt="Markdownify" width="200"></a>
+  <a href="https://www.npmjs.com/package/dailyprog"><img src="images/dailyprog.png" alt="DailyProg" width="200"></a>
   <br>
   DailyProg
   <br>
@@ -9,12 +9,13 @@
 
 <h4 align="center">Fetch coding questions from the <strong>r/dailyprogrammer</strong> subreddit easily from your terminal. No need to open your browser.</h4>
 
-<p align="center">
-  <a href="https://www.npmjs.com/package/dailyprog">
+  [![dailyprog][npm-shield]][https://www.npmjs.com/package/dailyprog]
+<!-- <p align="center"> -->
+  <!-- <a href="https://www.npmjs.com/package/dailyprog">
     <img src="https://www.npmjs.com/package/dailyprog.svg">
          <!-- alt="Gitter"> -->
-  </a>
-</p>
+  <!-- </a> --> -->
+<!-- </p> -->
 
 <p align="center">
   <a href="#build-with">Build With</a> •
