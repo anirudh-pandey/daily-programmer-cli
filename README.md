@@ -1,191 +1,94 @@
-<!--
-*** Thanks for checking out this README Template. If you have a suggestion that would
-*** make this better, please fork the repo and create a pull request or simply open
-*** an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
-***
-***
-***
-*** To avoid retyping too much info. Do a search and replace for the following:
-*** SeverusTheBest, daily-programmer-cli, twitter_handle, email
--->
 
+<h1 align="center">
+  <br>
+  <img src="images/dailyprog.png" alt="DailyProg" width="200">
+  <br>
+  DailyProg
+  <br>
+</h1>
 
+<h4 align="center">Fetch coding questions from the <strong>r/dailyprogrammer</strong> subreddit easily from your terminal. No need to open your browser.</h4>
 
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
-<!-- PROJECT LOGO -->
-<br />
 <p align="center">
-  <a href="https://github.com/SeverusTheBest/daily-programmer-cli">
-    <img src="images/dailyprog.png" alt="Logo" width="80" height="80">
+  <a href="https://badge.fury.io/js/dailyprog">
+    <img src="https://badge.fury.io/js/dailyprog.svg"
+         alt="Gitter">
   </a>
-
-  <h3 align="center">Daily Prog</h3>
-
-  <p align="center">
-    Fetches Coding Questions from the r/dailyprogrammer subreddit based on the question and difficulty entered.
-    <br />
-    <!-- <a href="https://github.com/SeverusTheBest/daily-programmer-cli"><strong>Explore the docs »</strong></a>
-    <br /> -->
-    <br />
-    <a href="https://github.com/SeverusTheBest/daily-programmer-cli">View Demo</a>
-    ·
-    <a href="https://github.com/SeverusTheBest/daily-programmer-cli/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/SeverusTheBest/daily-programmer-cli/issues">Request Feature</a>
-  </p>
 </p>
 
+<p align="center">
+  <a href="#build-with">Build With</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#credits">Credits</a> •
+  <a href="#support">Support</a> •
+  <a href="#license">License</a>
+</p>
 
+![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
 
-<!-- TABLE OF CONTENTS -->
-## Table of Contents
+## Build With
 
-* [About the Project](#about-the-project)
-  * [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
+    Node
 
+## Installation
 
+With [npm](https://npmjs.org/) installed, run
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+    $ npm install -g dailyprog
 
-<!-- ![](http://i.imgur.com/2tAksHG.gif) -->
-<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`SeverusTheBest`, `daily-programmer-cli`, `twitter_handle`, `email`
-
-
-### Built With
-
-* []()
-* []()
-* []()
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-To get a local copy up and running follow these simple steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
-
-### Installation
-
-1. Clone the repo
-```sh
-git clone https://github.com/SeverusTheBest/daily-programmer-cli.git
-```
-2. Install NPM packages
-```sh
-npm install
-```
-
-
-
-<!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+    $ dailyprog -q <questionNumber> -d <difficultyLevel>
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+### Options
+
+```
+Options:
+      --help        Show help                                          [boolean]
+      --version     Show version number                                [boolean]
+  -q, --question    Enter the question number                [string] [required]
+  -d, --difficulty  Choose a difficulty level                [string] [required] [choices: "easy", "intermediate", "hard"]
+                   
+```
+
+### Examples
+
+```
+# Shorter Way
+$ dailyprog -q 120 -d easy
+
+# Longer Way
+$ dailyprog --question 120 --difficulty easy
+```
+
+## Credits
+
+This software uses the following open source packages:
+
+- [Node.js](https://nodejs.org/)
+- [yargs](https://www.npmjs.com/package/yargs)
+- [axios](https://www.npmjs.com/package/axios)
+- [chalk](https://www.npmjs.com/package/chalk)
+- [cli-html](https://www.npmjs.com/package/cli-html)
+- [he](https://www.npmjs.com/package/he)
 
 
+## Support
 
-<!-- ROADMAP -->
-## Roadmap
+If you found my project helpful, give it a :star:
 
-See the [open issues](https://github.com/SeverusTheBest/daily-programmer-cli/issues) for a list of proposed features (and known issues).
+<!-- ## You may also like...
 
+- [Pomolectron](https://github.com/amitmerchant1990/pomolectron) - A pomodoro app
+- [Correo](https://github.com/amitmerchant1990/correo) - A menubar/taskbar Gmail App for Windows and macOS -->
 
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-<!-- LICENSE -->
 ## License
 
-Distributed under the ISC License. See `LICENSE` for more information.
+ISC
 
+---
 
+<!-- > [amitmerchant.com](https://www.amitmerchant.com) &nbsp;&middot;&nbsp; -->
+> GitHub [@SeverusTheBest](https://github.com/SeverusTheBest) &nbsp;&middot;&nbsp;
 
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
-
-Project Link: [https://github.com/SeverusTheBest/daily-programmer-cli](https://github.com/SeverusTheBest/daily-programmer-cli)
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* []()
-* []()
-* []()
-
-
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/SeverusTheBest/repo.svg?style=flat-square
-[contributors-url]: https://github.com/SeverusTheBest/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/SeverusTheBest/repo.svg?style=flat-square
-[forks-url]: https://github.com/SeverusTheBest/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/SeverusTheBest/repo.svg?style=flat-square
-[stars-url]: https://github.com/SeverusTheBest/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/SeverusTheBest/repo.svg?style=flat-square
-[issues-url]: https://github.com/SeverusTheBest/repo/issues
-[license-shield]: https://img.shields.io/github/license/SeverusTheBest/repo.svg?style=flat-square
-[license-url]: https://github.com/SeverusTheBest/repo/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/SeverusTheBest
-[product-screenshot]: images/screenshot.png
