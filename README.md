@@ -25,8 +25,10 @@
   <a href="#license">License</a>
 </p>
 
-<!-- ![screenshot](https://imgur.com/a/9SYsjNW) -->
-![](https://i.imgur.com/a/9SYsjNW.gif)
+<p align="center">
+  <img alt="DEMO GIF" src="https://media.giphy.com/media/yyYfpIromlL1STfQPB/giphy.gif" />
+</p>
+
 
 ## Build With
 
