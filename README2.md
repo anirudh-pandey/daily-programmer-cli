@@ -1,21 +1,15 @@
 
 <h1 align="center">
   <br>
-  <a href="https://www.npmjs.com/package/dailyprog"><img src="images/dailyprog.png" alt="DailyProg" width="200"></a>
+  <a href="https://www.npmjs.com/package/dailyprog"><img src="images/dailyprog.png" alt="DailyProg" width="200">
   <br>
   DailyProg
   <br>
+  </a>
 </h1>
 
 <h4 align="center">Fetch coding questions from the <strong>r/dailyprogrammer</strong> subreddit easily from your terminal. No need to open your browser.</h4>
 
-  [![dailyprog][npm-shield]][https://www.npmjs.com/package/dailyprog]
-<!-- <p align="center"> -->
-  <!-- <a href="https://www.npmjs.com/package/dailyprog">
-    <img src="https://www.npmjs.com/package/dailyprog.svg">
-         <!-- alt="Gitter"> -->
-  <!-- </a> --> -->
-<!-- </p> -->
 
 <p align="center">
   <a href="#build-with">Build With</a> •
@@ -58,10 +52,10 @@ Options:
 
 ```
 # Shorter Way
-app.js -q 120 -d easy
+$ dailyprog -q 120 -d easy
 
 # Longer Way
-app.js --question 120 --difficulty easy
+$ dailyprog --question 120 --difficulty easy
 ```
 
 ## Credits
