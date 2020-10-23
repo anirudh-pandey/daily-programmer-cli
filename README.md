@@ -25,7 +25,8 @@
   <a href="#license">License</a>
 </p>
 
-![screenshot](https://imgur.com/a/9SYsjNW)
+<!-- ![screenshot](https://imgur.com/a/9SYsjNW) -->
+![](https://imgur.com/a/9SYsjNW)
 
 ## Build With
 
