@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://www.npmjs.com/package/dailyprog"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a>
+  <a href="https://www.npmjs.com/package/dailyprog"><img src="images/markdownify.png" alt="Markdownify" width="200"></a>
   <br>
   DailyProg
   <br>
@@ -22,7 +22,7 @@
   <a href="#usage">Usage</a> •
   <a href="#download">Download</a> •
   <a href="#credits">Credits</a> •
-  <a href="#related">Related</a> •
+  <a href="#support">Support</a> •
   <a href="#license">License</a>
 </p>
 
@@ -40,50 +40,56 @@ With [npm](https://npmjs.org/) installed, run
 
 ## Usage
 
-You can [download](https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0) the latest installable version of Markdownify for Windows, macOS and Linux.
+    $ dailyprog -q <questionNumber> -d <difficultyLevel>
 
-## Emailware
+### Options
 
-Markdownify is an [emailware](https://en.wiktionary.org/wiki/emailware). Meaning, if you liked using this app or it has helped you in any way, I'd like you send me an email at <bullredeyes@gmail.com> about anything you'd want to say about this software. I'd really appreciate it!
+```
+Options:
+      --help        Show help                                          [boolean]
+      --version     Show version number                                [boolean]
+  -q, --question    Enter the question number                [string] [required]
+  -d, --difficulty  Choose a difficulty level
+                   [string] [required] [choices: "easy", "intermediate", "hard"]
+```
+
+### Examples
+
+```
+# Shorter Way
+app.js -q 120 -d easy
+
+# Longer Way
+app.js --question 120 --difficulty easy
+```
 
 ## Credits
 
 This software uses the following open source packages:
 
-- [Electron](http://electron.atom.io/)
 - [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
-- [showdown](http://showdownjs.github.io/showdown/)
-- [CodeMirror](http://codemirror.net/)
-- Emojis are taken from [here](https://github.com/arvida/emoji-cheat-sheet.com)
-- [highlight.js](https://highlightjs.org/)
+- [yargs](https://www.npmjs.com/package/yargs)
+- [axios](https://www.npmjs.com/package/axios)
+- [chalk](https://www.npmjs.com/package/chalk)
+- [cli-html](https://www.npmjs.com/package/cli-html)
+- [he](https://www.npmjs.com/package/he)
 
-## Related
-
-[markdownify-web](https://github.com/amitmerchant1990/markdownify-web) - Web version of Markdownify
 
 ## Support
 
-<a href="https://www.buymeacoffee.com/5Zn8Xh3l9" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+If you found my project helpful, give it a :star:
 
-<p>Or</p> 
-
-<a href="https://www.patreon.com/amitmerchant">
-	<img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
-
-## You may also like...
+<!-- ## You may also like...
 
 - [Pomolectron](https://github.com/amitmerchant1990/pomolectron) - A pomodoro app
-- [Correo](https://github.com/amitmerchant1990/correo) - A menubar/taskbar Gmail App for Windows and macOS
+- [Correo](https://github.com/amitmerchant1990/correo) - A menubar/taskbar Gmail App for Windows and macOS -->
 
 ## License
 
-MIT
+ISC
 
 ---
 
-> [amitmerchant.com](https://www.amitmerchant.com) &nbsp;&middot;&nbsp;
-> GitHub [@amitmerchant1990](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
-> Twitter [@amit_merchant](https://twitter.com/amit_merchant)
+<!-- > [amitmerchant.com](https://www.amitmerchant.com) &nbsp;&middot;&nbsp; -->
+> GitHub [@SeverusTheBest](https://github.com/SeverusTheBest) &nbsp;&middot;&nbsp;
 
