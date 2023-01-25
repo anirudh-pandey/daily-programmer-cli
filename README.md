@@ -81,17 +81,11 @@ This software uses the following open source packages:
 
 If you found my project helpful, give it a :star:
 
-<!-- ## You may also like...
-
-- [Pomolectron](https://github.com/amitmerchant1990/pomolectron) - A pomodoro app
-- [Correo](https://github.com/amitmerchant1990/correo) - A menubar/taskbar Gmail App for Windows and macOS -->
-
 ## License
 
 ISC
 
 ---
 
-<!-- > [amitmerchant.com](https://www.amitmerchant.com) &nbsp;&middot;&nbsp; -->
-> GitHub [@SeverusTheBest](https://github.com/SeverusTheBest) &nbsp;&middot;&nbsp;
+> GitHub [@anirudh-pandey](https://github.com/anirudh-pandey) &nbsp;&middot;&nbsp;
 
